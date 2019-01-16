@@ -1,7 +1,7 @@
 function countDownTo(countDate) {
     var now = new Date().getTime();
     var distance = countDate - now;
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));    
+    var days = Math.ceil(distance / (1000 * 60 * 60 * 24));    
 
     if (distance < 0) {
         clearInterval(x);
@@ -152,8 +152,8 @@ function countDownTo(countDate) {
     });
 
 
-	var countDownDate = new Date("Jun 8, 2019 17:30:00").getTime();
-
+	var countDownDate = new Date("Jun 8, 2019 00:00:00").getTime();
+    
 	var x = setInterval(function() {
        countDownTo(countDownDate);
 	}, 1000);
