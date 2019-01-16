@@ -782,9 +782,10 @@ h2, h4 {
     color: #fff; }
     .btn.btn-primary:hover {
       border: 2px solid #ff5656;
-      background: transparent;
+      background: #fff;
       color: #ff5656; }
 
+      
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
