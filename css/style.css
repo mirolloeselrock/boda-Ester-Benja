@@ -831,6 +831,7 @@ hr{
 
 .portada {
     margin-bottom: 8rem;
+    margin-top: -4rem;
 }
 .portada p{
     font-size: 34px;
