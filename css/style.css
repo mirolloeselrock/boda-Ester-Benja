@@ -93,7 +93,13 @@ a {
   a:hover {
     color: #34c0e7;
     text-decoration: underline; }
-
+strong a {
+    color: #000;
+}
+strong a:hover {
+    color: #000;
+    
+}
 img {
   vertical-align: middle;
   border-style: none; }
@@ -741,10 +747,10 @@ h2, h4 {
       color: #000; }
 
 .principal {
-  margin-top: -150px; }
+  padding-top: -150px; }
   @media (max-width: 767.98px) {
     .principal {
-      margin-top: 0; } }
+      padding-top: 0; } }
   .principal .container {
     z-index: 2;
     padding: 30px; }
@@ -824,7 +830,7 @@ hr{
 
 
 .portada {
-    margin-top: -10rem;
+    margin-bottom: 10rem;
 }
 .portada p{
     font-size: 34px;
