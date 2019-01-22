@@ -830,14 +830,10 @@ hr{
 
 
 
-.portada {
-    margin-bottom: 8rem;
-    margin-top: -4rem;
-}
-.portada p{
-    font-size: 34px;
+
+.jrnl p{
     color: #fff;
-    line-height: 1.2;
+    line-height: 0.9;
     font-weight: 400;
     font-style: italic;
 }
@@ -1451,3 +1447,28 @@ section ul {
     display: block; }
     .navbar-brand span:last-child {
       font-size: 28px; }
+
+      
+@font-face {
+    font-family: 'journalregular';
+    src: url('../fonts/journal/journal-webfont.woff2') format('woff2'),
+         url('../fonts/journal/journal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.jrnl p, .jrnl h2{
+    font-family: 'journalregular';
+    
+}
+.big {
+    font-size: 3.5em !important;
+}
+
+.normal, .normal span {
+   font-size: 2em !important; 
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
