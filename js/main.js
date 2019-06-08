@@ -4,7 +4,7 @@ function countDownTo(countDate) {
     var days = Math.ceil(distance / (1000 * 60 * 60 * 24));    
 
     if (distance < 0) {
-        clearInterval(x);
+        //clearInterval(x);
         days=0;                
     }
     if (days != document.getElementById("days").innerHTML)
